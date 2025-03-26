@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to our restaurant</h1>
+    </div>  
+
+    <!-- place order -->
+     <div class = "food">
+        <h1>Place Order</h1>
+        <form action="order.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="food">Food:</label><br>
+            <input type="text" id="food" name="food"><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity"><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+     </div>
+</html>
